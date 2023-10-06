@@ -121,6 +121,50 @@
     color: #E66210;
 }
 
+.my_present{
+    display: flex;
+    padding: 10px 90px ;
+    background-color: rgb(238, 238, 238);
+    margin-top: 30px;
+    align-items: center;
+}
+
+.my_present img{
+    width: 30%;
+}
+
+.my_desc{
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    text-align: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.my_desc h1{
+    font-weight: 350;
+    margin: 0;
+}
+
+.my_desc h2{
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.hr1{
+    display: block;
+    width: 20%;
+    background-color: #E66210;
+    height: 2px;
+    margin: 20px 0;
+}
+
+.my_desc p{
+    margin: 0;
+}
+
 @media(max-width:990px) {
     .location_meuble{
         flex-direction: column;
@@ -148,5 +192,23 @@
     }
     .card_vit img{
         width: 100%;
+    }
+}
+
+@media(max-width:1080px) {
+    .my_present{
+        padding: 10px 10px ;
+    }
+    .my_desc{
+        padding: 40px;
+    }
+}
+
+@media(max-width:700px) {
+    .my_present{
+        flex-direction: column;
+    }
+    .my_present img{
+        width: 70%;
     }
 }
