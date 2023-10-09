@@ -95,6 +95,42 @@ export default function Accueil(){
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam accusantium recusandae voluptate modi impedit similique dolor? A neque</p>
                 </div>
             </div>
+            <div className="metier_desc">
+                <img src={Img} alt="Boulot"/>
+                <div className="notre_metier">
+                    <h1>NOTRE METIER :</h1>
+                    <h2>POURVOIR À VOS BESOINS PONCTUELS EN FROID</h2>
+                    <span className="hr1"></span>
+                    <p>Depuis 2005, France Gel est spécialisée dans la location de matériel réfrigéré. Notre société a d'abord privilégié le nord de la France et la région parisienne pour ensuite couvrir l'ensemble de l'hexagone.</p>
+                    <div className="links">
+                        <span  className="link"><span><a href="#">Pourquoi data4know ?</a></span></span>
+                        <span  className="link"><span><a href="#">30 ans de savoir faire</a></span></span>
+                    </div>
+                </div>
+            </div>
+            <div className="footer">
+                <div className="site_information">
+                    <span className="tit">DATA4KNOW</span>
+                    <span>
+                    <a href="#">Rue Babelogne </a><br />
+                    <a href="#">80800 Corbie</a>
+                    </span>
+                    <span>mail : <a href="#">location@francegel.com</a></span>
+                    <span>Tél : <a href="#">03.22.43.87.94</a></span>
+                </div>
+                <div className="liens_utiles">
+                    <span className="tit">LIENS UTILES</span>
+                    <span>
+                    <a href="#">Louer un produit </a><br />
+                    <a href="#"> Acheter un produit </a> <br />
+                    <a href="#">Nous contacter</a>
+                    </span>
+                </div>
+                <div className="ment_leg">
+                   <span> Mentions légales</span>
+                   <span>Création de site : <a href="#">Ewoki Ebouele</a></span>
+                </div>
+            </div>
         </div>
     )
 }

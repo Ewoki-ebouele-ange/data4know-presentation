@@ -123,7 +123,7 @@
 
 .my_present{
     display: flex;
-    padding: 10px 90px ;
+    padding: 10px 90px 50px 90px ;
     background-color: rgb(238, 238, 238);
     margin-top: 30px;
     align-items: center;
@@ -165,6 +165,175 @@
     margin: 0;
 }
 
+.metier_desc{
+    display: flex;
+    background-color: rgb(2, 49, 70);
+    padding: 0 80px;
+    gap: 3rem;
+}
+
+.metier_desc img{
+    position: relative;
+    top: -25px;
+}
+
+.notre_metier{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.notre_metier h1{
+    margin: 0;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fabb95;
+    line-height: 2;
+    position: relative;
+}
+
+.notre_metier h2{
+    margin: 0;
+    color: white;
+    font-weight: 350;
+    font-size: 1.6rem;text-align: center;
+}
+
+.notre_metier p{
+    margin: 0;
+    text-align: center;
+    word-wrap: break-word;
+    font-size: 1rem;
+    color: white;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.links{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.link{
+    display: flex;
+    font-weight: 800;
+    padding: 3px;
+    background: linear-gradient(90deg, rgb(230, 98, 16) 0%, rgb(242, 151, 95) 100%);
+}
+
+.link span{
+    display: flex;
+    width: 100%;
+    background-color: rgb(2, 49, 70);
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    transition: all 1s ease;
+    text-align: center;
+}
+
+.link a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover > span{
+    transition: all 1s ease;
+    background: linear-gradient(90deg, rgb(230, 98, 16) 0%, rgb(242, 151, 95) 100%);
+}
+
+.footer{
+    display: flex;
+    background: linear-gradient(0deg,rgba(240,144,86,1) 0%,rgba(250,187,149,1) 100%);
+    color: #fff;
+    padding: 40px 100px;
+    gap: 100px;
+}
+
+.site_information{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.liens_utiles{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ment_leg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0 60px 350px;
+}
+
+.tit{
+    font-weight: 600;
+}
+
+.site_information span a, .liens_utiles span a, .ment_leg span a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.site_information span a:hover, .liens_utiles span a:hover, .ment_leg span a:hover{
+    text-decoration: underline;
+}
+
+@media(max-width:800px) {
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px !important;
+    }
+    .site_information{
+        align-items: center;
+        justify-content: center;
+    }
+    .liens_utiles{
+        align-items: center;
+        justify-content: center;
+    }
+    .ment_leg{
+        padding: 0;
+    }
+}
+
+
+@media(max-width:1200px) {
+    .metier_desc{
+       flex-direction: column;
+       align-items: center;
+        gap: 2px;
+        padding: 20px;
+    }
+
+    .metier_desc img{
+        top: 0;
+        width: 40%;
+    }
+    .notre_metier{padding: 10px;width: 80%;}
+    .links{
+        gap: 10px;
+    }
+    .footer{
+        gap: 50px;
+    }
+
+    .ment_leg{
+        padding-left: 100px;
+    }
+}
+
 @media(max-width:990px) {
     .location_meuble{
         flex-direction: column;
@@ -176,6 +345,13 @@
     }
     .image_acc img{
         width: 100%;
+    }
+    .ment_leg{
+        padding-left: 50px;
+    }
+
+    .ment_leg span{
+        text-align: center;
     }
 }
 
