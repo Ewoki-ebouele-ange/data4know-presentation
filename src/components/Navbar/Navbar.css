@@ -131,7 +131,7 @@
 @media(max-width:990px) {
     .navbar{
         padding: 10px 40px;
-        width: 100% !important;
+        width: 92% !important;
     }
 
     .hamburger{
@@ -211,4 +211,10 @@
         display: initial;
     }
 
+}
+
+@media(max-width:580px) {
+    .navbar{
+        width: 86% !important;
+    }
 }
