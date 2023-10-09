@@ -43,14 +43,14 @@ export default function Navbar(){
                     </li>
                     <li className={currentLink === 4 ? "active" : "none"} onClick={() => setCurrentLink(4)}>
                         <NavLink className="nav-item">
-                            A PROPOS <IoIosArrowDown className="drop-link" />
+                            A PROPOS {/*<IoIosArrowDown className="drop-link" />*/}
                         </NavLink>
-
+                        {/*
                         <ul>
                             <li className="linkin" onClick={() => setCurrentLink(4)}> <NavLink>Pourquoi data4know ?</NavLink></li>
                             <li className="linkin" onClick={() => setCurrentLink(4)}><NavLink>Découvrir data4know</NavLink></li>
                         </ul>
-
+                        */}
                     </li>
                     <li className={currentLink === 5 ? "active" : "none"} onClick={() => setCurrentLink(5)}>
                         <NavLink className="nav-item">VENTE</NavLink>
