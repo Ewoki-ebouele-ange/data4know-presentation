@@ -1,6 +1,7 @@
 import React from "react";
 import './Accueil.css'
 import data4 from "../../Assets/low logo blue.png"
+import data from "../../Assets/low logo orange.png"
 import Img from "../../Assets/low logo blue.png"
 import Img1 from "../../Assets/bigdata.png"
 import Img2 from "../../Assets/webdev.png"
@@ -73,7 +74,7 @@ export default function Accueil(){
                 </div>
             </div>
             <div className="metier_desc">
-                <img src={Img} alt="Boulot"/>
+                <img src={data} alt="Boulot"/>
                 <div className="notre_metier">
                     <h1>NOTRE METIER :</h1>
                     <h2>POURVOIR À VOS BESOINS PONCTUELS EN FROID</h2>

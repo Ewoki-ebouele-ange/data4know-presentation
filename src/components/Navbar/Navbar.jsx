@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import "./Navbar.css"
-import Img from "../../Assets/low logo blue.png"
+import Img from "../../Assets/low logo orange.png"
 import { NavLink } from "react-router-dom";
 import {IoIosArrowDown} from "react-icons/io"
 
