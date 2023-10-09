@@ -53,17 +53,14 @@ export default function Navbar(){
                         */}
                     </li>
                     <li className={currentLink === 5 ? "active" : "none"} onClick={() => setCurrentLink(5)}>
-                        <NavLink className="nav-item">VENTE</NavLink>
-                    </li>
-                    <li className={currentLink === 6 ? "active" : "none"} onClick={() => setCurrentLink(6)}>
                         <NavLink className="nav-item">BLOG</NavLink>
                     </li>
-                    <li className={currentLink === 7 ? "active" : "none"} onClick={() => setCurrentLink(7)}>
-                        <NavLink className="nav-item">CONTACT</NavLink>
+                    <li className={currentLink === 6 ? "active" : "none"} onClick={() => setCurrentLink(6)}>
+                        <NavLink to="/contact" className="nav-item">CONTACT</NavLink>
                     </li>
                  </ul>
                 </div>
-                <div className="contact">
+                <div className="contact_acc">
                     <p>Contactez nous au : </p>
                     <h2>+1 676879896875</h2>
                 </div>

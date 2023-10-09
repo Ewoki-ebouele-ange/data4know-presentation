@@ -73,6 +73,17 @@ export default function Accueil(){
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam accusantium recusandae voluptate modi impedit similique dolor? A neque</p>
                 </div>
             </div>
+            <div className="partenaires">
+                <h1>Ils nous font confiance</h1>
+                <div className="img_part">
+                    <a href="" target="blank"><img src={data} alt="partenaire" /></a>
+                    <a href="" target="blank"><img src={data} alt="partenaire" /></a>
+                    <a href="" target="blank"><img src={data} alt="partenaire" /></a>
+                    <a href="" target="blank"><img src={data} alt="partenaire" /></a>
+                    <a href="" target="blank"><img src={data} alt="partenaire" /></a>
+                    <a href="" target="blank"><img src={data} alt="partenaire" /></a>
+                </div>
+            </div>
             <div className="metier_desc">
                 <img src={data} alt="Boulot"/>
                 <div className="notre_metier">
@@ -86,29 +97,7 @@ export default function Accueil(){
                     </div>
                 </div>
             </div>
-            <div className="footer">
-                <div className="site_information">
-                    <span className="tit">DATA4KNOW</span>
-                    <span>
-                    <a href="#">Rue Babelogne </a><br />
-                    <a href="#">80800 Corbie</a>
-                    </span>
-                    <span>mail : <a href="#">location@francegel.com</a></span>
-                    <span>Tél : <a href="#">03.22.43.87.94</a></span>
-                </div>
-                <div className="liens_utiles">
-                    <span className="tit">LIENS UTILES</span>
-                    <span>
-                    <a href="#">Louer un produit </a><br />
-                    <a href="#"> Acheter un produit </a> <br />
-                    <a href="#">Nous contacter</a>
-                    </span>
-                </div>
-                <div className="ment_leg">
-                   <span> Mentions légales</span>
-                   <span>Création de site : <a href="#">Ewoki Ebouele</a></span>
-                </div>
-            </div>
+            
         </div>
     )
 }

@@ -115,15 +115,15 @@
     cursor: pointer;
 }
 
-.contact{
+.contact_acc{
     color: orange;
 }
 
-.contact p{
+.contact_acc p{
     margin: 0;
 }
 
-.contact h2{
+.contact_acc h2{
     margin: 0;
     white-space: nowrap;
 }
