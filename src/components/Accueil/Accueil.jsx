@@ -2,6 +2,10 @@ import React from "react";
 import './Accueil.css'
 import data4 from "../../Assets/low logo blue.png"
 import Img from "../../Assets/low logo blue.png"
+import Img1 from "../../Assets/bigdata.png"
+import Img2 from "../../Assets/webdev.png"
+import Img3 from "../../Assets/microsoft365.png"
+import Img4 from "../../Assets/programming.png"
 import Sergio from '../../Assets/sergio.png'
 
 export default function Accueil(){
@@ -29,61 +33,34 @@ export default function Accueil(){
                 <h2>Lorem ipsum dolor sit amet consectetur adipisicing eli</h2>
                 <div className="vitrines">
                     <div className="card_vit">
-                            <img src={Img} alt="" />
+                            <img src={Img1} alt="" />
                         <div className="desc_img">
                             <h2>consectetur adipisicing elit</h2>
                             <p>Officia ullam inventore voluptates temporibus recusandae dolore dignissimos tempore quis autem</p>
                         </div>
                     </div>
                     <div className="card_vit">
-                            <img src={Img} alt="" />
+                            <img src={Img2} alt="" />
                         <div className="desc_img">
                             <h2>consectetur adipisicing elit</h2>
                             <p>Officia ullam inventore voluptates temporibus recusandae dolore dignissimos tempore quis autem</p>
                         </div>
                     </div>
                     <div className="card_vit">
-                            <img src={Img} alt="" />
+                            <img src={Img3} alt="" />
                         <div className="desc_img">
                             <h2>consectetur adipisicing elit</h2>
                             <p>Officia ullam inventore voluptates temporibus recusandae dolore dignissimos tempore quis autem</p>
                         </div>
                     </div>
                     <div className="card_vit">
-                            <img src={Img} alt="" />
+                            <img src={Img4} alt="" />
                         <div className="desc_img">
                             <h2>consectetur adipisicing elit</h2>
                             <p>Officia ullam inventore voluptates temporibus recusandae dolore dignissimos tempore quis autem</p>
                         </div>
                     </div>
-                    <div className="card_vit">
-                            <img src={Img} alt="" />
-                        <div className="desc_img">
-                            <h2>consectetur adipisicing elit</h2>
-                            <p>Officia ullam inventore voluptates temporibus recusandae dolore dignissimos tempore quis autem</p>
-                        </div>
-                    </div>
-                    <div className="card_vit">
-                            <img src={Img} alt="" />
-                        <div className="desc_img">
-                            <h2>consectetur adipisicing elit</h2>
-                            <p>Officia ullam inventore voluptates temporibus recusandae dolore dignissimos tempore quis autem</p>
-                        </div>
-                    </div>
-                    <div className="card_vit">
-                            <img src={Img} alt="" />
-                        <div className="desc_img">
-                            <h2>consectetur adipisicing elit</h2>
-                            <p>Officia ullam inventore voluptates temporibus recusandae dolore dignissimos tempore quis autem</p>
-                        </div>
-                    </div>
-                    <div className="card_vit">
-                            <img src={Img} alt="" />
-                        <div className="desc_img">
-                            <h2>consectetur adipisicing elit</h2>
-                            <p>Officia ullam inventore voluptates temporibus recusandae dolore dignissimos tempore quis autem</p>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
             <div className="my_present">
