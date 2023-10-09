@@ -294,6 +294,7 @@
         align-items: center;
         justify-content: center;
         gap: 30px !important;
+        padding: 40px 60px !important;
     }
     .site_information{
         align-items: center;
@@ -304,7 +305,7 @@
         justify-content: center;
     }
     .ment_leg{
-        padding: 0;
+        padding: 0 !important;
     }
 }
 
