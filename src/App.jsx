@@ -1,17 +1,13 @@
-import { Navbar, Accueil, Contact,Footer } from './components';
-import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Navbar, Accueil, Contact, Footer, Blog } from './components';
 
 function App() {
   return (
     <div className="App">
-      <Router>
       <Navbar/>
-      <Routes>
-      <Route path="/" element={<Accueil />} />
-      <Route path="/contact" element={<Contact />} />
-      </Routes>
+      <Accueil />
+      <Blog />
+      <Contact />
       <Footer />
-      </Router>
     </div>
   );
 }

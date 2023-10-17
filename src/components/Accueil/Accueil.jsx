@@ -21,7 +21,7 @@ export default function Accueil(){
                     </h1>
                     <p className="large">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sequi voluptate inventore exercitationem sint voluptatibus labore officiis molestiae tempora expedita rem quas eveniet, eos alias quia assumenda. Culpa, rem quo? <br /> <br />
-                        <a href="#">sit amet consectetur </a>, <a href="#">Beatae sequi voluptate inventore</a>, vitrines service arrière accompagnées de <a href="#">exercitationem</a> et trancheurs spécialement conçus pour recevoir votre PLV afin de valoriser vos produits. <br /> <br />
+                        <a href="#metier_desc">sit amet consectetur </a>, <a href="#">Beatae sequi voluptate inventore</a>, vitrines service arrière accompagnées de <a href="#">exercitationem</a> et trancheurs spécialement conçus pour recevoir votre PLV afin de valoriser vos produits. <br /> <br />
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia ullam inventore voluptates temporibus recusandae dolore dignissimos tempore quis autem ad quod sed ab iusto, maiores deleniti magni. Quis, aliquam numquam?
                     </p>
                     <span className="dem_devis">SKDYFIEFE LIZOFKZE LZIEHFZE</span>
@@ -84,7 +84,7 @@ export default function Accueil(){
                     <a href="" target="blank"><img src={data} alt="partenaire" /></a>
                 </div>
             </div>
-            <div className="metier_desc">
+            <div className="metier_desc" id="metier_desc">
                 <img src={data} alt="Boulot"/>
                 <div className="notre_metier">
                     <h1>NOTRE METIER :</h1>

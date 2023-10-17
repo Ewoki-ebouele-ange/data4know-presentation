@@ -1,0 +1,80 @@
+.blog{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px 20px 50px;
+    background-color: #fff;
+}
+
+.blog_card h1{
+    margin-top: 0;
+    font-size: 3rem;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card_blog{
+    display: grid;   
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    grid-auto-flow: row;
+    width: 100%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 90%;
+    cursor: pointer;
+    padding: 10px;
+    box-shadow: rgba(67, 65, 104, 0.06) 0px 0px 20px 4px;
+    gap: 5px;
+}
+
+.card img{
+    width: 80%;
+    height: 300px;
+}
+
+.card a{
+    color: rgb(43, 43, 58);
+    vertical-align: middle;
+    transition: color 240ms ease 0s;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.25;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+.card p{
+    margin: 0px;
+    color: #5F727F;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.card .date{
+    position: absolute;
+    background-color: rgb(2, 49, 70);
+    color: #fff;
+    font-weight: 500;
+    top: 10px;
+    right: 10px;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+.card .triangle{
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 70.688px;
+    content: "";
+    border-width: 18px;
+    border-style: solid;
+    border-color: rgb(2, 49, 70) rgb(2, 49, 70) transparent transparent;
+    border-image: initial;
+}

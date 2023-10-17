@@ -4,7 +4,7 @@ import "./Contact.css"
 export default function Contact(){
 
     return(
-        <div className="contact">
+        <div className="contact" id="contact">
             <div className="location_local">
                 <div className="loca">
                     <h1>DATAFORKNOW</h1>
