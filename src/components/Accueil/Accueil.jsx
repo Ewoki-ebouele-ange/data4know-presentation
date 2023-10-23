@@ -1,5 +1,6 @@
 import React from "react";
 import './Accueil.css'
+import Contact from "../Contact/Contact"
 import data4 from "../../Assets/low logo blue.png"
 import data from "../../Assets/low logo orange.png"
 import Img from "../../Assets/low logo blue.png"
@@ -13,6 +14,7 @@ export default function Accueil(){
 
 
     return(
+        <>
         <div className="accueil">
             <div className="location_meuble">
                 <div className="location_desc">
@@ -99,5 +101,7 @@ export default function Accueil(){
             </div>
             
         </div>
+        <Contact />
+        </>
     )
 }

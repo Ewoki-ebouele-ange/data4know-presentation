@@ -3,11 +3,12 @@
     flex-direction: column;
     padding: 50px 50px 20px 50px;
     background-color: #fff;
+    margin-top: 75px;
 }
 
-.blog_card h1{
+.blog h1{
     margin-top: 0;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 300;
     font-family: 'Poppins', sans-serif;
 }

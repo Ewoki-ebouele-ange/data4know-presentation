@@ -53,7 +53,10 @@ export default function Navbar(){
                         */}
                     </li>
                     <li className={currentLink === 5 ? "active" : "none"} onClick={() => setCurrentLink(5)}>
-                        <a href="/" className="nav-item">BLOG</a>
+                        
+                        <a href="/blog" className="nav-item">
+                            BLOG 
+                        </a>
                     </li>
                     <li className={currentLink === 6 ? "active" : "none"} onClick={() => setCurrentLink(6)}>
                         <a href="#contact" className="nav-item">CONTACT</a>
