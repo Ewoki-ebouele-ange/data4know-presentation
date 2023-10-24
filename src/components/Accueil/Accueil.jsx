@@ -19,48 +19,49 @@ export default function Accueil(){
             <div className="location_meuble">
                 <div className="location_desc">
                     <h1 className="frigorifiques">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit
+                        Données À Savoir (Data For Know)
                     </h1>
                     <p className="large">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sequi voluptate inventore exercitationem sint voluptatibus labore officiis molestiae tempora expedita rem quas eveniet, eos alias quia assumenda. Culpa, rem quo? <br /> <br />
-                        <a href="#metier_desc">sit amet consectetur </a>, <a href="#">Beatae sequi voluptate inventore</a>, vitrines service arrière accompagnées de <a href="#">exercitationem</a> et trancheurs spécialement conçus pour recevoir votre PLV afin de valoriser vos produits. <br /> <br />
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia ullam inventore voluptates temporibus recusandae dolore dignissimos tempore quis autem ad quod sed ab iusto, maiores deleniti magni. Quis, aliquam numquam?
+                        met à votre disposition des connaissances avancées sur les métiers liés aux données <br /> <br />
+                        <a href="#">Stockage</a>, <a href="#">Extraction</a>, <a href="#">Traitement</a>, et <a href="#">Diffusion</a> de l'information sont nos domaines d'expertise. Vous nous fournissez votre <a href="#">pétrole brut (les données )</a> du XXIème siècle <br /> <br />
+                        et nous vous partageons <a href="#">l'essence</a> de différents grade qu'il faut pour rouler votre compagnie (personnelle, pme société etc.)
                     </p>
-                    <span className="dem_devis" id="dem_devis">SKDYFIEFE LIZOFKZE LZIEHFZE</span>
+                    <span className="dem_devis" id="dem_devis">CONTACTEZ NOUS</span>
                 </div>
                 <div className="image_acc">
                     <img src={data4} alt="image_face" />
                 </div>
             </div>
             <div className="decouverte" id="decouverte">
-                <h2>Lorem ipsum dolor sit amet consectetur adipisicing eli</h2>
+                <h2>nos services</h2>
                 <div className="vitrines">
                     <div className="card_vit">
                             <img src={Img1} alt="" />
                         <div className="desc_img">
-                            <h2>consectetur adipisicing elit</h2>
-                            <p>Officia ullam inventore voluptates temporibus recusandae dolore dignissimos tempore quis autem</p>
+                            <h2>Traitement de données massives</h2>
+                            <p>Les données de grande taille pour de grande décisions.</p>
                         </div>
                     </div>
                     <div className="card_vit">
                             <img src={Img2} alt="" />
                         <div className="desc_img">
-                            <h2>consectetur adipisicing elit</h2>
-                            <p>Officia ullam inventore voluptates temporibus recusandae dolore dignissimos tempore quis autem</p>
+                            <h2>Diffusion de l'information</h2>
+                            <p>la démocratisation des connaissances sur des plateformes de partage interactives et simple d'implémentation.</p>
                         </div>
                     </div>
                     <div className="card_vit">
                             <img src={Img3} alt="" />
                         <div className="desc_img">
-                            <h2>consectetur adipisicing elit</h2>
-                            <p>Officia ullam inventore voluptates temporibus recusandae dolore dignissimos tempore quis autem</p>
+                            <h2>Developpement d'etreprise</h2>
+                            <p>Sla mise en place des solutions professionnelles pour des performances optimales de collaboration et de travail.</p>
                         </div>
                     </div>
                     <div className="card_vit">
                             <img src={Img4} alt="" />
                         <div className="desc_img">
-                            <h2>consectetur adipisicing elit</h2>
-                            <p>Officia ullam inventore voluptates temporibus recusandae dolore dignissimos tempore quis autem</p>
+                            <h2>Language</h2>
+                            <p> utilisation des languages populaires pour se faire comprendre par une grande communauté de developpeurs ET D
+                                onner des instructions à une machine pour l'automatisation des tâches répétitives.</p>
                         </div>
                     </div>
                     
@@ -69,10 +70,11 @@ export default function Accueil(){
             <div className="my_present">
                 <img src={Sergio} alt="profil_image" />
                 <div className="my_desc">
-                    <h1>KSDJ KUECFZEF LOCDUIUFSD KIUHDF</h1>
-                    <h2>SDKSD OMOLMFV LVKLIPOQ EZCYSDYC HYGSDYFCSD YTFCTDQ QYTFSQ</h2>
+                    <h1>LE MOT DE LA DIRECTION</h1>
+                    <h2>donner à la décision un poids numérique</h2>
                     <span className="hr1"></span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam accusantium recusandae voluptate modi impedit similique dolor? A neque</p>
+                    <p>l'histoire nous enseigne le future à travers les historiens, la
+						donnée nous procure la connaissance à travers la <a href="#">donnée à savoir !</a> </p>
                 </div>
             </div>
             <div className="partenaires">
@@ -90,12 +92,13 @@ export default function Accueil(){
                 <img src={data} alt="Boulot" id="boulot"/>
                 <div className="notre_metier">
                     <h1>NOTRE METIER :</h1>
-                    <h2>POURVOIR À VOS BESOINS PONCTUELS EN FROID</h2>
+                    <h2>VOS DONNÉES POUR VOTRE CONNAISSANCE</h2>
                     <span className="hr1"></span>
-                    <p>Depuis 2005, France Gel est spécialisée dans la location de matériel réfrigéré. Notre société a d'abord privilégié le nord de la France et la région parisienne pour ensuite couvrir l'ensemble de l'hexagone.</p>
+                    <p>Depuis 2017, nous utilisons les données pour mettre en evidences les
+						connaissances sur de nombreux sujets de recherche.</p>
                     <div className="links">
-                        <span  className="link"><span><a href="#">Pourquoi data4know ?</a></span></span>
-                        <span  className="link"><span><a href="#">30 ans de savoir faire</a></span></span>
+                        <span  className="link"><span><a href="#">Pourquoi d4k ?</a></span></span>
+                        <span  className="link"><span><a href="#">une palette d'expertise</a></span></span>
                     </div>
                 </div>
             </div>
