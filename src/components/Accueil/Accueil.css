@@ -337,16 +337,16 @@
     }
 }
 
-@media(max-width:900px) {
+@media(max-width:450px) {
     .vitrines{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr) !important;
         
     }
 }
 
 @media(max-width:900px) {
     .vitrines{
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
     .card_vit img{
         width: 100%;

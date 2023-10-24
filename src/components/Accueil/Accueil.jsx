@@ -26,13 +26,13 @@ export default function Accueil(){
                         <a href="#metier_desc">sit amet consectetur </a>, <a href="#">Beatae sequi voluptate inventore</a>, vitrines service arrière accompagnées de <a href="#">exercitationem</a> et trancheurs spécialement conçus pour recevoir votre PLV afin de valoriser vos produits. <br /> <br />
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia ullam inventore voluptates temporibus recusandae dolore dignissimos tempore quis autem ad quod sed ab iusto, maiores deleniti magni. Quis, aliquam numquam?
                     </p>
-                    <span className="dem_devis">SKDYFIEFE LIZOFKZE LZIEHFZE</span>
+                    <span className="dem_devis" id="dem_devis">SKDYFIEFE LIZOFKZE LZIEHFZE</span>
                 </div>
                 <div className="image_acc">
                     <img src={data4} alt="image_face" />
                 </div>
             </div>
-            <div className="decouverte">
+            <div className="decouverte" id="decouverte">
                 <h2>Lorem ipsum dolor sit amet consectetur adipisicing eli</h2>
                 <div className="vitrines">
                     <div className="card_vit">
@@ -77,7 +77,7 @@ export default function Accueil(){
             </div>
             <div className="partenaires">
                 <h1>Ils nous font confiance</h1>
-                <div className="img_part">
+                <div className="img_part" id="img_part">
                     <a href="" target="blank"><img src={data} alt="partenaire" /></a>
                     <a href="" target="blank"><img src={data} alt="partenaire" /></a>
                     <a href="" target="blank"><img src={data} alt="partenaire" /></a>
@@ -87,7 +87,7 @@ export default function Accueil(){
                 </div>
             </div>
             <div className="metier_desc" id="metier_desc">
-                <img src={data} alt="Boulot"/>
+                <img src={data} alt="Boulot" id="boulot"/>
                 <div className="notre_metier">
                     <h1>NOTRE METIER :</h1>
                     <h2>POURVOIR À VOS BESOINS PONCTUELS EN FROID</h2>

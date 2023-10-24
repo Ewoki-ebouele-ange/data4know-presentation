@@ -14,7 +14,7 @@ export default function Contact(){
                     <span>Adresse : <a href="">Rue Babelogne - 80800 CORBIE</a></span>
                 </div>
                 <div className="localisation">
-                    
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d910.3768780432746!2d2.2936233250830576!3d48.85834363120057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTour%20Eiffel!5e0!3m2!1sfr!2scm!4v1698094337576!5m2!1sfr!2scm" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
             <div className="newsletter_advantage">

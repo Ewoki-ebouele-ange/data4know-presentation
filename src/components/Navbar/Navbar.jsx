@@ -39,10 +39,10 @@ export default function Navbar(){
                         </a>
                     </li>
                     <li className={currentLink === 3 ? "active" : "none"} onClick={() => setCurrentLink(3)}>
-                        <a href="#metier_desc" className="nav-item">NOS SERVICES</a>
+                        <a href="#dem_devis" className="nav-item">NOS SERVICES</a>
                     </li>
                     <li className={currentLink === 4 ? "active" : "none"} onClick={() => setCurrentLink(4)}>
-                        <a href="/" className="nav-item">
+                        <a href="#boulot" className="nav-item">
                             A PROPOS {/*<IoIosArrowDown className="drop-link" />*/}
                         </a>
                         {/*
@@ -52,14 +52,14 @@ export default function Navbar(){
                         </ul>
                         */}
                     </li>
+                    <li className={currentLink === 6 ? "active" : "none"} onClick={() => setCurrentLink(6)}>
+                        <a href="#contact" className="nav-item">CONTACT</a>
+                    </li>
                     <li className={currentLink === 5 ? "active" : "none"} onClick={() => setCurrentLink(5)}>
                         
                         <a href="/blog" className="nav-item">
                             BLOG 
                         </a>
-                    </li>
-                    <li className={currentLink === 6 ? "active" : "none"} onClick={() => setCurrentLink(6)}>
-                        <a href="#contact" className="nav-item">CONTACT</a>
                     </li>
                  </ul>
                 </div>
