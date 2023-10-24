@@ -69,7 +69,9 @@ export default function Navbar(){
                 </div>
             </div>
             <div className="img-logo">
-                <img src={Img} alt="Data4know-img" />
+                <a href="/">
+                    <img src={Img} alt="Data4know-img" />
+                </a>
             </div>
         </>
     );
