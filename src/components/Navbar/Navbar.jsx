@@ -39,7 +39,7 @@ export default function Navbar(){
                         </a>
                     </li>
                     <li className={currentLink === 3 ? "active" : "none"} onClick={() => setCurrentLink(3)}>
-                        <a href="#dem_devis" className="nav-item">NOS SERVICES</a>
+                        <a href="#dem_devis" className="nav-item">SERVICES</a>
                     </li>
                     <li className={currentLink === 4 ? "active" : "none"} onClick={() => setCurrentLink(4)}>
                         <a href="#boulot" className="nav-item">
@@ -58,14 +58,14 @@ export default function Navbar(){
                     <li className={currentLink === 5 ? "active" : "none"} onClick={() => setCurrentLink(5)}>
                         
                         <a href="/blog" className="nav-item">
-                            BLOG 
+                            BLOGS 
                         </a>
                     </li>
                  </ul>
                 </div>
                 <div className="contact_acc">
                     <p>Contactez nous au : </p>
-                    <h2>+1 676879896875</h2>
+                    <h2>info@dataforknow.com</h2>
                 </div>
             </div>
             <div className="img-logo">
